@@ -9,7 +9,7 @@ const MenuItem = ({title,imageUrl,size ,history,linkUrl,match}) => (
     > 
     <div className='background-image'  
         style={{
-            backgroundImage: `url(${imageUrl})`
+            backgroundImage: `url(${imageUrl})`  
         }}>
     </div>
         <div className='content'>

@@ -1,0 +1,24 @@
+.cart-dropdown {
+  position: absolute;
+  width: 240px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  top: 90px;
+  right: 40px;
+  z-index: 5;
+
+  .cart-items {
+    height: 320px;  //original value 240 hti bt mra cart ma set nti thti so me 320 kri che
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  button {
+    margin-top: auto;
+  }
+}

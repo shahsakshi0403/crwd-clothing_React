@@ -11,6 +11,11 @@
   right: 40px;
   z-index: 5;
 
+  .empty-message{
+    font-size: 18px;
+    margin: 50px auto;
+  }
+
   .cart-items {
     height: 320px;  //original value 240 hti bt mra cart ma set nti thti so me 320 kri che
     display: flex;
